@@ -4,7 +4,7 @@
 
 Написано на чистом JavaScript, без сторонних npm-пакетов и этапа сборки.
 
-📖 **[Сайт документации](https://p1nkcheeks.github.io/pomodoro-focus/index.html)** — HTML-справочник по коду расширения, сгенерированный из JSDoc-комментариев.
+**[Сайт документации](https://p1nkcheeks.github.io/pomodoro-focus/index.html)** — HTML-справочник по коду расширения, сгенерированный из JSDoc-комментариев.
 
 ## Возможности
 
