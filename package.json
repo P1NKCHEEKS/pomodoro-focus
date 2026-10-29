@@ -1,0 +1,45 @@
+{
+  "name": "pomodoro-focus",
+  "displayName": "Pomodoro Focus",
+  "description": "A simple Pomodoro timer for Visual Studio Code.",
+  "version": "1.0.1",
+  "publisher": "P1NKCHEEKS",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "pomodoro.start",
+        "title": "Pomodoro: Start Focus"
+      },
+      {
+        "command": "pomodoro.pause",
+        "title": "Pomodoro: Pause / Resume"
+      },
+      {
+        "command": "pomodoro.break",
+        "title": "Pomodoro: Start Break"
+      },
+      {
+        "command": "pomodoro.reset",
+        "title": "Pomodoro: Reset"
+      }
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^10.13.0",
+    "eslint-plugin-jsdoc": "^65.4.2",
+    "jsdoc": "^4.0.5"
+  },
+  "scripts": {
+    "docs": "jsdoc -c jsdoc.json"
+  }
+}
