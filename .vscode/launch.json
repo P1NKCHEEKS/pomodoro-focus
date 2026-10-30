@@ -2,7 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Run Pomodoro Focus (Extension Development Host)",
+      "name": "Run Pomodoro Focus",
       "type": "extensionHost",
       "request": "launch",
       "args": [
